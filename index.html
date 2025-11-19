@@ -8,7 +8,11 @@
 </head>
 <body>
     <header>
-        <h1>HAHAHAHVAC</h1>
+        <div class="logo">HAHAHAHVAC</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -19,7 +23,14 @@
         </nav>
     </header>
     <main>
-        <div id="app"></div>
+        <section class="video-feed">
+            <h2>Recommended for You</h2>
+            <div id="video-list"></div>
+        </section>
+        <aside class="shorts">
+            <h2>Shorts</h2>
+            <div id="shorts-list"></div>
+        </aside>
     </main>
     <script src="src/scripts/main.js"></script>
 </body>
